@@ -1,0 +1,71 @@
+# To be used with `ftvkyo/svg2gcode`
+name: cryptodancer
+outdir: cryptodancer
+shared:
+  resolution: 0.1
+  safe_height: 2.5
+jobs:
+  - input: cryptodancer-Edge_Cuts.svg
+    # Do a round tour to check alignment (should be run in the air)
+    kind: !EngraveContours
+      depth: 0
+    bit_shape: V45Deg
+    feed: 240
+    rpm: 8000
+  - input: cryptodancer-B_Cu.svg
+    # Drill the vias
+    kind: !DrillCircles
+      depth: 1.2
+      radius_min: 1.1
+      radius_max: 1.1
+    bit_shape: !Square
+      radius: 0.575
+    feed: 200
+    rpm: 8000
+  - input: cryptodancer-Holes.svg
+    # Drill through holes
+    kind: !DrillCircles
+      depth: 1.2
+      radius_min: 0.5
+      radius_max: 0.5
+    bit_shape: !Square
+      radius: 0.575
+    feed: 200
+    rpm: 8000
+  - input: cryptodancer-Holes.svg
+    # Drill holes for side legs of keyswitches
+    kind: !DrillCircles
+      depth: 1.2
+      radius_min: 0.8
+      radius_max: 0.9
+    bit_shape: !Square
+      radius: 0.85
+    feed: 200
+    rpm: 8000
+  - input: cryptodancer-Holes.svg
+    # Bore holes for central legs of keyswitches and for sockets
+    kind: !BoreCircles
+      depth: 1.2
+      depth_per_turn: 0.25
+      radius_min: 1.5
+      radius_max: 1.75
+    bit_shape: !Square
+      radius: 1.1
+    feed: 120
+    rpm: 8000
+    # Engrave the copper traces
+  - input: cryptodancer-B_Cu.svg
+    kind: !EngraveContours
+      depth: 0.15
+    bit_shape: V45Deg
+    feed: 200
+    rpm: 8000
+  - input: cryptodancer-Edge_Cuts.svg
+    # Cut the edge
+    kind: !CutContours
+      depth: 1.2
+      depth_per_pass: 0.25
+    bit_shape: !Square
+      radius: 1.5
+    feed: 120
+    rpm: 8000
