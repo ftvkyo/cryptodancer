@@ -1,19 +1,20 @@
 # To be used with `ftvkyo/svg2gcode`
 name: cryptodancer
-outdir: cryptodancer
+outdir: tmp
 shared:
   resolution: 0.1
   safe_height: 2.5
 jobs:
   - input: cryptodancer-Edge_Cuts.svg
-    # Do a round tour to check alignment (should be run in the air)
+    # Do a round tour to check alignment
     kind: !EngraveContours
       depth: 0
-    bit_shape: V45Deg
+      offset: 0
+    bit_shape: V
     feed: 240
     rpm: 8000
   - input: cryptodancer-B_Cu.svg
-    # Drill the vias
+    # Drill holes
     kind: !DrillCircles
       depth: 1.2
       radius_min: 1.1
@@ -23,13 +24,21 @@ jobs:
     feed: 200
     rpm: 8000
   - input: cryptodancer-Holes.svg
-    # Drill through holes
+    # Drill more holes
     kind: !DrillCircles
       depth: 1.2
       radius_min: 0.5
       radius_max: 0.5
     bit_shape: !Square
       radius: 0.575
+    feed: 200
+    rpm: 8000
+  - input: cryptodancer-User_1.svg
+    # Drill holes for encoder legs
+    kind: !DrillCircles
+      depth: 1.2
+    bit_shape: !Square
+      radius: 0.85
     feed: 200
     rpm: 8000
   - input: cryptodancer-Holes.svg
@@ -57,7 +66,8 @@ jobs:
   - input: cryptodancer-B_Cu.svg
     kind: !EngraveContours
       depth: 0.15
-    bit_shape: V45Deg
+      offset: 0.2
+    bit_shape: V
     feed: 200
     rpm: 8000
   - input: cryptodancer-Edge_Cuts.svg
@@ -67,5 +77,5 @@ jobs:
       depth_per_pass: 0.25
     bit_shape: !Square
       radius: 1.5
-    feed: 120
+    feed: 200
     rpm: 8000

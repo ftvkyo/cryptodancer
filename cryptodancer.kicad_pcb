@@ -77,7 +77,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_55555555_57555550)
+			(layerselection 0x00000000_00000000_555555d5_55555550)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
@@ -114,7 +114,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "..")
+			(outputdirectory "fab")
 		)
 	)
 	(net 0 "")
@@ -28910,6 +28910,50 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fac227a7-9b7c-41b2-92fa-481d26544e43")
+	)
+	(gr_circle
+		(center 133.930866 89.780609)
+		(end 134.930866 90.280609)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "04ac6489-2093-49d2-953c-8e56a9dfdd64")
+	)
+	(gr_circle
+		(center 179.476886 86.930237)
+		(end 180.476886 87.430237)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "44f45943-8f50-4f4f-8272-3306f0558d79")
+	)
+	(gr_circle
+		(center 168.63931 89.800753)
+		(end 169.63931 90.300753)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "5e945e93-ae7c-46d1-ba5e-68dc614dfcb4")
+	)
+	(gr_circle
+		(center 123.113435 86.879845)
+		(end 124.113435 87.379845)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "65bf1a3f-292c-43ae-a7a5-bc8182363e85")
 	)
 	(segment
 		(start 156.308927 53.783666)
