@@ -876,23 +876,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "STM32F401"
-				(at 0 0 0)
+			(property "Reference" "STM32F401_Board1"
+				(at 0 31.496 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 11.43 0)
+			(property "Value" "~"
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ftvkyo:STM32F401_Board"
 				(at 0 11.43 0)
 				(effects
 					(font
@@ -950,7 +950,7 @@
 					(name "B12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -968,7 +968,7 @@
 					(name "B13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -986,7 +986,7 @@
 					(name "B14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1004,7 +1004,7 @@
 					(name "B15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1022,7 +1022,7 @@
 					(name "A8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1040,7 +1040,7 @@
 					(name "A9/USB_VBUS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1058,7 +1058,7 @@
 					(name "A10/USB_ID"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1076,7 +1076,7 @@
 					(name "A11/USB_DM"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1094,7 +1094,7 @@
 					(name "A12/USB_DP"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1112,7 +1112,7 @@
 					(name "A15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1130,7 +1130,7 @@
 					(name "B3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1148,7 +1148,7 @@
 					(name "B4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1166,7 +1166,7 @@
 					(name "B5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1184,7 +1184,7 @@
 					(name "B6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1202,7 +1202,7 @@
 					(name "B7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1220,7 +1220,7 @@
 					(name "B8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1238,7 +1238,7 @@
 					(name "B9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1256,7 +1256,7 @@
 					(name "5V"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1274,7 +1274,7 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1292,7 +1292,7 @@
 					(name "3V3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1310,7 +1310,7 @@
 					(name "5V"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1328,7 +1328,7 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1346,7 +1346,7 @@
 					(name "3V3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1364,7 +1364,7 @@
 					(name "B10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1382,7 +1382,7 @@
 					(name "B2/Boot1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1400,7 +1400,7 @@
 					(name "B1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1418,7 +1418,7 @@
 					(name "B0"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1433,10 +1433,10 @@
 				(pin bidirectional line
 					(at 12.7 6.35 180)
 					(length 2.54)
-					(name "A7"
+					(name "A7/SOI8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1451,10 +1451,10 @@
 				(pin bidirectional line
 					(at 12.7 3.81 180)
 					(length 2.54)
-					(name "A6"
+					(name "A6/SOI8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1469,10 +1469,10 @@
 				(pin bidirectional line
 					(at 12.7 1.27 180)
 					(length 2.54)
-					(name "A5"
+					(name "A5/SOI8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1487,10 +1487,10 @@
 				(pin bidirectional line
 					(at 12.7 -1.27 180)
 					(length 2.54)
-					(name "A4"
+					(name "A4/SOI8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1508,7 +1508,7 @@
 					(name "A3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1526,7 +1526,7 @@
 					(name "A2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1544,7 +1544,7 @@
 					(name "A1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1559,10 +1559,10 @@
 				(pin bidirectional line
 					(at 12.7 -11.43 180)
 					(length 2.54)
-					(name "A0"
+					(name "A0/USR"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1580,7 +1580,7 @@
 					(name "nRST"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1598,7 +1598,7 @@
 					(name "C15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1616,7 +1616,7 @@
 					(name "C14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1631,10 +1631,10 @@
 				(pin bidirectional line
 					(at 12.7 -21.59 180)
 					(length 2.54)
-					(name "C13"
+					(name "C13/LED"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -1652,7 +1652,7 @@
 					(name "VBat"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.762 0.762)
 							)
 						)
 					)
@@ -2388,8 +2388,16 @@
 		(uuid "ffa69d69-3a40-43d5-bc7e-dc4a061ed31d")
 	)
 	(no_connect
+		(at 83.82 179.07)
+		(uuid "11135b83-a166-4e52-8b5e-b48145df5ecf")
+	)
+	(no_connect
 		(at 83.82 181.61)
 		(uuid "1ca36cd8-6022-4d57-8513-b686a6902e55")
+	)
+	(no_connect
+		(at 83.82 166.37)
+		(uuid "273a9e58-4426-4f26-a65f-de99a1b12bfa")
 	)
 	(no_connect
 		(at 83.82 143.51)
@@ -2408,10 +2416,6 @@
 		(uuid "3dacc0b4-2492-48ff-a8d3-bbd023aa15fd")
 	)
 	(no_connect
-		(at 83.82 186.69)
-		(uuid "3e1c4609-4b8d-46f8-864b-9ed1cac825f1")
-	)
-	(no_connect
 		(at 58.42 191.77)
 		(uuid "6282087c-f77f-4a36-a8c5-7057c5847e28")
 	)
@@ -2422,10 +2426,6 @@
 	(no_connect
 		(at 83.82 148.59)
 		(uuid "96271669-d484-4fac-8ff0-848184802173")
-	)
-	(no_connect
-		(at 83.82 184.15)
-		(uuid "9c060398-3f1e-4ee6-b3f2-a4f17ede63af")
 	)
 	(no_connect
 		(at 58.42 161.29)
@@ -4475,6 +4475,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 186.69) (xy 83.82 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac911e1-dbf4-422b-be1c-43b1c8e2bbb0")
+	)
+	(wire
+		(pts
 			(xy 196.85 48.26) (xy 199.39 48.26)
 		)
 		(stroke
@@ -4795,16 +4805,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 179.07) (xy 86.36 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2dc8e8f-fbaf-4d33-bf3d-c7da0fafd27d")
-	)
-	(wire
-		(pts
 			(xy 106.68 156.21) (xy 119.38 156.21)
 		)
 		(stroke
@@ -4952,6 +4952,16 @@
 			(type default)
 		)
 		(uuid "ae4f2112-ca5c-4818-9274-deb3191392dc")
+	)
+	(wire
+		(pts
+			(xy 86.36 184.15) (xy 83.82 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7dba50-5e6c-4082-a6d9-e9cf202816dc")
 	)
 	(wire
 		(pts
@@ -5122,16 +5132,6 @@
 			(type default)
 		)
 		(uuid "b88fb87a-654a-4800-9e54-71866bddb6ad")
-	)
-	(wire
-		(pts
-			(xy 83.82 166.37) (xy 86.36 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b89b0759-7d84-4da3-a073-66b31913fc36")
 	)
 	(wire
 		(pts
@@ -6433,16 +6433,6 @@
 		)
 		(uuid "002bc3ff-9c86-4c4e-b28b-fe3bbd817ac8")
 	)
-	(label "col7"
-		(at 86.36 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "09607027-5090-4d12-b682-2704bb96e601")
-	)
 	(label "col1"
 		(at 59.69 133.35 0)
 		(effects
@@ -6523,16 +6513,6 @@
 		)
 		(uuid "408ed6f5-3eec-4e84-8d44-6e5e3b137db7")
 	)
-	(label "col6"
-		(at 86.36 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "421b6cc8-9661-4827-ac04-7b62a1166ba6")
-	)
 	(label "ENC_R_a"
 		(at 116.84 175.26 180)
 		(effects
@@ -6544,6 +6524,16 @@
 		(uuid "46ba1a32-8dc2-420a-a87e-3ca4048ec3c1")
 	)
 	(label "buzz"
+		(at 86.36 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b006654-3820-4b09-a42c-00b31f85d41f")
+	)
+	(label "buzz"
 		(at 182.88 163.83 180)
 		(effects
 			(font
@@ -6552,16 +6542,6 @@
 			(justify right bottom)
 		)
 		(uuid "4c7bbc83-a530-4ef3-bd60-5ae66a87854e")
-	)
-	(label "col8"
-		(at 86.3544 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f7ee673-73d5-416b-ba3f-94d3c1bae294")
 	)
 	(label "ENC_R_push"
 		(at 137.16 175.26 0)
@@ -6663,6 +6643,16 @@
 		)
 		(uuid "80c5a392-a5c3-4aac-8880-2ecfe84eef8c")
 	)
+	(label "col9"
+		(at 86.36 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82735422-35e3-44d0-9fdf-35c6edc5a8d5")
+	)
 	(label "col6"
 		(at 180.34 133.35 0)
 		(effects
@@ -6693,16 +6683,6 @@
 		)
 		(uuid "89cfc62d-d935-49a4-b378-9e6748275fbe")
 	)
-	(label "col9"
-		(at 86.36 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8c1bb046-d67e-416e-9a6b-f3e97f205592")
-	)
 	(label "row0"
 		(at 279.4 38.1 0)
 		(effects
@@ -6712,16 +6692,6 @@
 			(justify left bottom)
 		)
 		(uuid "8c88803e-8e7b-47e3-8e61-29c6149f28fe")
-	)
-	(label "col10"
-		(at 86.36 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f2f7e14-cd8a-42cb-84fb-b60369a34f3b")
 	)
 	(label "ENC_L_b"
 		(at 116.84 158.75 180)
@@ -6733,6 +6703,16 @@
 		)
 		(uuid "a2c0023e-c4a4-418e-8f5e-181f8e99d8ee")
 	)
+	(label "col6"
+		(at 86.36 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a44158be-30d5-45f8-82ef-b1bffde7a053")
+	)
 	(label "ENC_L_b"
 		(at 55.88 181.61 180)
 		(effects
@@ -6742,16 +6722,6 @@
 			(justify right bottom)
 		)
 		(uuid "b32b44da-cc98-4f6a-a558-dd839b7f8e73")
-	)
-	(label "buzz"
-		(at 86.36 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b41219e2-ebcd-4734-88de-03380ff39eee")
 	)
 	(label "col7"
 		(at 199.39 133.35 0)
@@ -6802,6 +6772,16 @@
 			(justify left bottom)
 		)
 		(uuid "c251ac49-a06e-473d-87c4-08d4ffe37f3b")
+	)
+	(label "col7"
+		(at 86.36 184.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2e119b2-9cf3-402b-99cd-f4472d3b95e4")
 	)
 	(label "col11"
 		(at 86.36 163.83 0)
@@ -6892,6 +6872,26 @@
 			(justify left bottom)
 		)
 		(uuid "e9cbf5bc-2a26-4c4e-aac4-6a1117c2352d")
+	)
+	(label "col10"
+		(at 86.36 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea1e8e48-1d24-4128-b495-3542854530ff")
+	)
+	(label "col8"
+		(at 86.36 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f747a391-cd66-49ec-87e6-a0d47e57e20c")
 	)
 	(label "row1"
 		(at 279.4 60.96 0)
