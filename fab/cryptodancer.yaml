@@ -20,7 +20,7 @@ jobs:
       radius_min: 1.1
       radius_max: 1.1
     bit_shape: !Square
-      radius: 0.575
+      radius: 0.45
     feed: 200
     rpm: 8000
   - input: cryptodancer-Holes.svg
@@ -30,7 +30,7 @@ jobs:
       radius_min: 0.5
       radius_max: 0.5
     bit_shape: !Square
-      radius: 0.575
+      radius: 0.45
     feed: 200
     rpm: 8000
   - input: cryptodancer-User_1.svg
@@ -65,11 +65,11 @@ jobs:
     # Engrave the copper traces
   - input: cryptodancer-B_Cu.svg
     kind: !EngraveContours
-      depth: 0.15
+      depth: 0.1
       offset: 0.2
     bit_shape: V
-    feed: 200
-    rpm: 8000
+    feed: 240
+    rpm: 12000
   - input: cryptodancer-Edge_Cuts.svg
     # Cut the edge
     kind: !CutContours
