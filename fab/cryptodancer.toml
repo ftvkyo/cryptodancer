@@ -1,0 +1,72 @@
+# To be used with `ftvkyo/svg2gcode`
+
+name = "cryptodancer"
+outdir = "tmp"
+
+[shared]
+resolution = 0.1
+safe_height = 2.5
+
+# Do a round tour to check alignment
+[[jobs]]
+input = "cryptodancer-Edge_Cuts.svg"
+job = { kind = "EngraveContours", depth = 0, offset = 0 }
+bit = { shape = "V" }
+feed = 240
+rpm = 8000
+
+# Drill holes
+[[jobs]]
+input = "cryptodancer-B_Cu.svg"
+job = { kind = "DrillCircles", depth = 1.2, radius_min = 1.1, radius_max = 1.1 }
+bit = { shape = "Square", radius = 0.45 }
+feed = 200
+rpm = 8000
+
+# Drill more holes
+[[jobs]]
+input = "cryptodancer-Holes.svg"
+job = { kind = "DrillCircles", depth = 1.2, radius_min = 0.5, radius_max = 0.5 }
+bit = { shape = "Square", radius = 0.45 }
+feed = 200
+rpm = 8000
+
+# Drill holes for encoder legs
+[[jobs]]
+input = "cryptodancer-User_1.svg"
+job = { kind = "DrillCircles", depth = 1.2 }
+bit = { shape = "Square", radius = 0.85 }
+feed = 200
+rpm = 8000
+
+# Drill holes for side legs of keyswitches
+[[jobs]]
+input = "cryptodancer-Holes.svg"
+job = { kind = "DrillCircles", depth = 1.2, radius_min = 0.8, radius_max = 0.9 }
+bit = { shape = "Square", radius = 0.85 }
+feed = 200
+rpm = 8000
+
+# Bore holes for central legs of keyswitches and for sockets
+[[jobs]]
+input = "cryptodancer-Holes.svg"
+job = { kind = "BoreCircles", depth = 1.2, depth_per_turn = 0.25, radius_min = 1.5, radius_max = 1.75 }
+bit = { shape = "Square", radius = 1.1 }
+feed = 120
+rpm = 8000
+
+# Engrave the copper traces
+[[jobs]]
+input = "cryptodancer-B_Cu.svg"
+job = { kind = "EngraveContours", depth = 0.1, offset = 0.2 }
+bit = { shape = "V" }
+feed = 240
+rpm = 12000
+
+# Cut the edge
+[[jobs]]
+input = "cryptodancer-Edge_Cuts.svg"
+job = { kind = "CutContours", depth = 1.2, depth_per_pass = 0.25 }
+bit = { shape = "Square", radius = 1.5 }
+feed = 200
+rpm = 8000
